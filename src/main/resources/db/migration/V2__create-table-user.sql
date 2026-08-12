@@ -1,0 +1,10 @@
+CREATE TABLE users (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(256) NOT NULL,
+    email VARCHAR(256) UNIQUE NOT NULL,
+    cpf VARCHAR(11) UNIQUE NOT NULL,
+    phone VARCHAR(11),
+    registration_date DATE DEFAULT NOW(),
+    active BOOLEAN DEFAULT TRUE
+
+)
