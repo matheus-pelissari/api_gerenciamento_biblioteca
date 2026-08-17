@@ -22,6 +22,8 @@ public class UserRequestDTO {
     @Size(max = 11, message = "Phone máximo de 11 caracteres")
     private String phone;
 
+    public UserRequestDTO(){}
+
     public String getName() {
         return name;
     }

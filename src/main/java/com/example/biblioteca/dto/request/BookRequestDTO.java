@@ -30,6 +30,8 @@ public class BookRequestDTO {
     @Size(max = 128, message = "Category máximo de 128 caracteres")
     private String category;
 
+    public BookRequestDTO(){}
+
     public String getTitulo() {
         return titulo;
     }
