@@ -59,7 +59,7 @@ public class Book {
         }
     }
 
-    // Roda toda vez que uma entidade já existente sofre alguma alteração e é sincronizada via UPDATE
+    // Roda toda vez que uma entidade já existente sofre alguma alteração e é sincronizada via Update
     @PreUpdate
     protected void onUpdate(){
         this.updatedAt = LocalDateTime.now();
