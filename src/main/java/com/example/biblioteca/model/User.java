@@ -38,16 +38,6 @@ public class User {
 
     public User(){}
 
-    public User(Long id, String name, String email, String cpf, String phone, LocalDateTime registrationDate, Boolean active) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.cpf = cpf;
-        this.phone = phone;
-        this.registrationDate = registrationDate;
-        this.active = active;
-    }
-
     public Long getId() {
         return id;
     }

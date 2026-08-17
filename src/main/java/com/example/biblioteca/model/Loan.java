@@ -42,15 +42,7 @@ public class Loan {
 
     public Loan() {}
 
-    public Loan(Long id, Book book, User user, LocalDateTime loanDate, LocalDate dueDate, LocalDate returnDate, LoanStatus status) {
-        this.id = id;
-        this.book = book;
-        this.user = user;
-        this.loanDate = loanDate;
-        this.dueDate = dueDate;
-        this.returnDate = returnDate;
-        this.status = status;
-    }
+
 
     public Long getId() {
         return id;
